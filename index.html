@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap-grid.min.css">
+     <script defer src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" ></script>
+
+     <!--grid system of bootstrap/ rows and columns-->
+</head>
+<body>
+    <div class="container">
+        <p>1</p>
+        <div class="row">
+            <div class="col-2 gy-3 ">
+                <div class="box"></div>
+            </div>
+            <div class="col-4 gy-3">
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <!--different column size on large screens and small screens-->
+        <p>2</p>
+        <div class="row">
+            <!--this column will take 2 column spaces out of 12 on a large screen and 4 on a small screen-->
+            <div class="col-lg-2 col-4 gy-3">
+                <div class="box"></div>
+            </div>
+
+            <!--gy means space between rows-->
+            <div class="col gy-3">
+                <div class="box">
+
+                </div>
+            </div>
+        </div>
+
+        <!--row betwwen a col-->
+        <!--we have one row and in the first column of that row we have another row,
+             broken into two columns -->
+        <p>3</p>
+        <div class="row  row-cols-12 gy-lg-5">
+            <div class="col">
+               <div class="row">
+                   <div class="col gy-3"><div class="box"></div></div>
+                   <div class="col gy-3"><div class="box"></div></div>
+                   <div class="col gy-3"><div class="box"></div></div>
+                   <div class="col gy-3"><div class="box"></div></div>
+               </div>
+            </div>
+
+           </div> 
+
+   
+    
+
+   
+</body>
+</html>

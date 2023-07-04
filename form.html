@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+     <script defer src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" ></script>
+</head>
+<body>
+
+    <!--basic form-->
+    <div class="container"></div>
+    <form>
+        <label for="email" class="form-label"> Email </label>
+        <input type="email" id="email" class="form-control">
+        <button>Submit</button>
+    </form>
+    <br>
+
+    <!--large form-->
+    <div class="container"></div>
+    <form>
+        <label for="email" class="form-label"> Email </label>
+        <input type="email" id="email" class="form-control form-control-lg">
+        <button>Submit</button>
+    </form>
+    <br>
+
+    <!--small form-->
+    <div class="container"></div>
+    <form>
+        <label for="email" class="form-label"> Email </label>
+        <input type="email" id="email" class="form-control form-control-sm">
+        <button>Submit</button>
+    </form>
+    <br>
+
+    <!--disabled tag adds a grey colour-->
+    <div class="container"></div>
+    <form>
+        <label for="email" class="form-label"> Email </label>
+        <input type="email" id="email"  disabled class="form-control" >
+        <button>Submit</button>
+    </form>
+    <br>
+
+<!--can only read ,cant edit-->
+    <div class="container"></div>
+    <form>
+        <label for="email" class="form-label"> Email </label>
+        <input type="email" id="email" value="@gmail.com" readonly class="form-control">
+        <button>Submit</button>
+    </form>
+    <br>
+
+    <!--adds a colour palet-->
+    <div class="container"></div>
+    <form>
+        <label for="email" class="form-label"> Email </label>
+        <input type="color" id="email" class="form-control form-control-color">
+        <button>Submit</button>
+    </form>
+    <br>
+
+    <!--adds a range-->
+
+    <div class="container"></div>
+    <form>
+        <label for="email" class="form-label"> Email </label>
+        <input type="range" id="email" class=" form-range">
+        <button>Submit</button>
+    </form>
+<br>
+
+<!--options-->
+    <div class="container"></div>
+    <form>
+        <label for="email" class="form-label"> Email </label>
+       <select class="form-select">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+       </select>
+        <button>Submit</button>
+    </form>
+<br>
+
+<!--checkbox-->
+    <div class="container"></div>
+    <form>
+  <div class="form-check">
+        <input type="checkbox" class="form-check-input"/>
+        <label for="email" class="form-check-label"> Email </label>
+        <button>Submit</button>
+    </form>
+  </div>
+  <br>
+
+    <!--adds an on/off swtch and alines them together in one line-->
+    
+  <div class="container"></div>
+  <form>
+<div class="form-check form-switch form-check-inline">
+      <input type="checkbox" class="form-check-input"/>
+      <label for="email" class="form-check-label"> Email </label>
+      <button>Submit</button>
+    <input type="checkbox" class="form-check-input"/>
+    <label for="email" class="form-check-label"> Email </label>
+    <button>Submit</button>
+</form>
+</div>
+<br>
+
+<!--adds two input boxes-->
+<div class="container">
+    <form>
+        <label for="text" class="form-label">text</label>
+            <div class="input-group">
+            <input type="text" id="text" class="form-control">
+            <input type="text2" id="text" class="form-control">
+            <button>submit</button>
+    </form>
+</div>
+</div>    
+    <br>
+    
+    <!--some math-->
+<div class="container">
+    <form>
+        <label for="text" class="form-label">Amount</label>
+        <div class="input-group">
+            <div class="input-group-text">$</div>
+            <input type="text" id="text" class="form-control">
+            <button>submit</button>
+    </form>
+</div>
+</div>
+    
+    
+    
+</body>
+</html>
